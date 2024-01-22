@@ -8,6 +8,7 @@ public class Board {
 	private Integer rows;
 	private Integer columns;
 	private Piece[][] pieces;
+
 	
 	public Board(Integer rows, Integer columns) {
 		if(rows < 1 || columns < 1) {
